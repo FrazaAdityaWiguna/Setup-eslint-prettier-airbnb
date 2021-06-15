@@ -24,5 +24,6 @@ Setup 2
 }
 7. npm i styled-component
 
+Source: https://www.youtube.com/watch?v=m2osVgjKeOU
 
 Note: dont use npm audit fix
