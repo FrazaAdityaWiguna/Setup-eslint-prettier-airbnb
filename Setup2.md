@@ -28,7 +28,7 @@ Setup 2
 {
   "singleQuote": true
 }
-7. npm i styled-component
+7. npm i styled-components
 
 Source: https://www.youtube.com/watch?v=m2osVgjKeOU
 
