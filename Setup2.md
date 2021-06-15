@@ -7,14 +7,16 @@ Setup 2
   "extends": ["airbnb", "prettier"],
   "plugins": ["prettier"],
   "rules": {
-     "prettier/prettier": "error",
+    "prettier/prettier": "error",
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "no-unused-vars": "warn",
     "no-console": "off",
     "func-names": "off",
     "no-process-exit": "off",
     "object-shorthand": "off",
-    "class-methods-use-this": "off"
+    "class-methods-use-this": "off",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off"
   }
 }
 5. create file .prettierrc
