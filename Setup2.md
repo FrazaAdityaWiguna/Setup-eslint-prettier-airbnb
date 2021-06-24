@@ -11,7 +11,7 @@ Setup 2
   "extends": ["airbnb", "prettier"],
   "plugins": ["prettier"],
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": ["error", {"singleQuote": true, "parser": "flow"}],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "no-unused-vars": "warn",
     "no-console": "off",
